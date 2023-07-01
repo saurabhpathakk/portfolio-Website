@@ -276,7 +276,7 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Choudhary Charan Singh University- PDEU
+            Pandit Deendayal Energy University- PDEU
           </div>
           <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
           <div className=" text-sm md:text-base">Computer Engineering</div>
@@ -452,9 +452,9 @@ function Projects() {
       domains: ["javascript", "next.js", "tailwindcss"],
     },
     {
-      name: "Survey Form",
+      name: "Chrome Extension React Bolierplate",
       date: "Dec 2021",
-      link: "https://github.com/saurabhpathakk/SurveyForm",
+      link: "https://github.com/vivek9patel/chrome-extension-react-boilerplate",
       description: [
         "A boilerplate code to build a chrome extension with react and webpack",
       ],
@@ -634,8 +634,8 @@ function Resume() {
   return (
     <iframe
       className="h-full w-full"
-      src="./files/example.pdf"
-      title="Saurabh's resume"
+      src="./files/Vivek-Patel-Resume.pdf"
+      title="vivek patel resume"
       frameBorder="0"
     ></iframe>
   );

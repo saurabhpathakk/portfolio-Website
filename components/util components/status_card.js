@@ -24,8 +24,8 @@ export class StatusCard extends Component {
 		super();
 		this.wrapperRef = React.createRef();
 		this.state = {
-			sound_level: 75, // better of setting default values from localStorage
-			brightness_level: 100 // setting default value to 100 so that by default its always full.
+			sound_level: 20, // better of setting default values from localStorage
+			brightness_level: 80 // setting default value to 100 so that by default its always full.
 		};
 	}
 	handleClickOutside = () => {
